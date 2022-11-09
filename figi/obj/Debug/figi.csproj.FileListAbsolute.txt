@@ -1,0 +1,8 @@
+E:\проекты\figi\figi\bin\Debug\figi.exe.config
+E:\проекты\figi\figi\bin\Debug\figi.exe
+E:\проекты\figi\figi\bin\Debug\figi.pdb
+E:\проекты\figi\figi\obj\Debug\figi.csproj.AssemblyReference.cache
+E:\проекты\figi\figi\obj\Debug\figi.csproj.SuggestedBindingRedirects.cache
+E:\проекты\figi\figi\obj\Debug\figi.csproj.CoreCompileInputs.cache
+E:\проекты\figi\figi\obj\Debug\figi.exe
+E:\проекты\figi\figi\obj\Debug\figi.pdb
