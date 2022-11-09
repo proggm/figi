@@ -10,18 +10,28 @@ namespace figi
     {
         static void Main(string[] args)
         {
-            Figi fig=new Figi();
-            fig.first = 11;
-            fig.second = 169 ;
+            Figi fig = new Figi();
 
-            Console.Write($"Квадрат 1 числа: {Math.Pow(fig.first,2)},Корень 1 числа:{Math.Sqrt(fig.first)}");
-            Console.Write($"Квадрат 2 числа: {Math.Pow(fig.second, 2)},Корень 2 числа:{Math.Sqrt(fig.second)}");
+            Console.WriteLine(fig.Degree(11));
+            Console.WriteLine(fig.Deg(169));
             Console.ReadKey();
         }
     }
+
+    public class Figi
+    {
+        public double first { get; set; }
+
+
+        public  double Degree(double first)
+        {
+            return first * first;
+        }
+        public  double Deg(double first)
+        {
+            return Math.Sqrt(first);
+        }
+
+    }
 }
-public class Figi
-{
-   public double first { get; set; }    
-    public double second { get; set; }
-}
+
